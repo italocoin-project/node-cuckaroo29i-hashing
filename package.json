@@ -1,0 +1,50 @@
+{
+  "_from": "git+https://github.com/italocoin-project/node-cuckaroo29i-hashing.git",
+  "_id": "cuckaroo29i-hashing@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cuckaroo29i-hashing",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "cuckaroo29i-hashing@git+https://github.com/italocoin-project/node-cuckaroo29i-hashing.git",
+    "name": "cuckaroo29i-hashing",
+    "escapedName": "cuckaroo29i-hashing",
+    "rawSpec": "git+https://github.com/italocoin-project/node-cuckaroo29i-hashing.git",
+    "saveSpec": "git+https://github.com/italocoin-project/node-cuckaroo29i-hashing.git",
+    "fetchSpec": "https://github.com/italocoin-project/node-cuckaroo29i-hashing.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/italocoin-project/node-cuckaroo29i-hashing.git",
+  "_spec": "cuckaroo29i-hashing@git+https://github.com/italocoin-project/node-cuckaroo29i-hashing.git",
+  "_where": "/home/tube/src/node-cuckaroo29i-hashing",
+  "author": {
+    "name": "italocoin-project"
+  },
+  "bugs": {
+    "url": "https://github.com/italocoin-project/node-cuckaroo29i-hashing/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bignum": "*",
+    "bindings": "*",
+    "nan": "^2.8.0"
+  },
+  "deprecated": false,
+  "gypfile": true,
+  "homepage": "https://github.com/italocoin-project/node-cuckaroo29i-hashing#readme",
+  "license": "0bsd",
+  "main": "cuckaroo29i-hashing",
+  "name": "cuckaroo29i-hashing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/italocoin-project/node-cuckaroo29i-hashing.git"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "version": "1.0.0"
+}
