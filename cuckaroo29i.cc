@@ -30,7 +30,7 @@ static void setheader(const char *header, const uint32_t headerlen, siphash_keys
 
 // Cuck(at)oo Cycle, a memory-hard proof-of-work
 // Copyright (c) 2013-2019 John Tromp
-#define PROOFSIZE 40
+#define PROOFSIZE 48
 #define EDGEBITS 29
 #define EDGE_BLOCK_BITS 6
 #define EDGE_BLOCK_SIZE (1 << EDGE_BLOCK_BITS)
@@ -142,8 +142,8 @@ NAN_METHOD(cycle_hash) {
 	
 	Local<Array> ring = Local<Array>::Cast(info[0]);
 
-	uint8_t hashdata[145]; // PROOFSIZE*EDGEBITS/8
-	memset(hashdata, 0, 145);
+	uint8_t hashdata[174]; // PROOFSIZE*EDGEBITS/8
+	memset(hashdata, 0, 174);
 
 	int bytepos = 0;
 	int bitpos = 0;
